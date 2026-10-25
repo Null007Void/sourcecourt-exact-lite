@@ -9,7 +9,7 @@ paths, account names, and internal coordination identifiers.
 | Repository | Contents | State |
 | --- | --- | --- |
 | Private engineering repository | Full development history, including earlier commits that contain internal workspace references | **Not published.** Retains `57a0875` and `0dcc57d` as accepted checkpoints. |
-| This public-release candidate | An audited snapshot of the approved source, committed into a **new Git root**; 1.1.1 follows 1.1.0 as a normal child commit | Prepared for publication; not pushed anywhere. |
+| This public repository | An audited snapshot of the approved 1.1.2 source in a **new single-root Git history**, followed by a documentation-only correction commit | The published history; it carries no earlier candidate branch. |
 
 The public snapshot shares no Git objects with the private repository: no
 `.git` directory was copied, no commit history carried over, and no private

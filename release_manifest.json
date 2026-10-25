@@ -105,7 +105,7 @@
       "sha256": "38e7905af272d2b97069e9c27596651b2b5e2ad1e1156920c2a2b8322350d757",
       "size": 60847,
       "published": false,
-      "reason": "The 1.0.0 source distribution embeds the original private build lane's acceptance records verbatim and is never published. The 1.1.0 sdist is built from this public tree and is audited by tools/build_release.py."
+      "reason": "The 1.0.0 source distribution is historical: it embeds the original private build lane's acceptance records verbatim and is never published. The current release sdist is built from this tree and audited by tools/build_release.py; its hash is recorded under artifacts."
     }
   },
   "public_files": {
@@ -142,28 +142,28 @@
       "size": 1093
     },
     "docs/ACCEPTANCE.md": {
-      "sha256": "e88057d23ed3467fcc66d2a6b2515c8f412d826ff3657d5a078ee92a98235e73",
-      "size": 6509
+      "sha256": "7f3c6fcaef6707c85833b84389607b4795642fc32f96b8ae54b174a7a443c7bd",
+      "size": 6520
     },
     "docs/LIMITATIONS.md": {
-      "sha256": "88c361fad5c3f06caf11da3b2ff551c0ef292056e3815bdbda0c3a90cbb3cd6a",
+      "sha256": "48df218a91ed9a5f6e37406a64f18eae97f3692c7558b69dcc7d7345ddc87b6c",
       "size": 5523
     },
     "docs/PROVENANCE.md": {
-      "sha256": "6cba23c4931f2445f722d76af3860c01eb9af1bddca044e1478cc23ece1b097a",
-      "size": 7254
+      "sha256": "40d5ba448de33654601474807e85d753205775b6da2f92491a64232001564911",
+      "size": 7277
     },
     "docs/RELEASE_MANIFEST.md": {
-      "sha256": "a72d2e08ea27bed8abe04353c4c964c5bb9d86091b97012d898440d347536fb7",
-      "size": 4943
+      "sha256": "aa9d2f328fe75fb171b8b393e1d6da609dcbe4afdb3165142559d86cbdb240b5",
+      "size": 5084
     },
     "docs/VERIFICATION.md": {
-      "sha256": "75d43e4d3980e37613363c57afabd751b0bff158c02c101246ec3d6e00aaa8f7",
-      "size": 10602
+      "sha256": "bc04bffef41b13d3d654346c58e7e12670fb917678327c439beb409340941dc7",
+      "size": 10672
     },
     "tools/generate_release_manifest.py": {
-      "sha256": "75834b2435c5ab50ad6b3370558a2d199b483a4c7a1cee99d91214027b7b8c77",
-      "size": 3988
+      "sha256": "52e9c4d13bb6ec019452f17e4f02cff903b95af0d6beb3f65f6838e27d02ceeb",
+      "size": 4059
     },
     "tools/build_release.py": {
       "sha256": "6f65656e86c40f3d3d6cb085f847e56e526e83da837940b9fd47a40bcfb07abb",

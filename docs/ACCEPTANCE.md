@@ -1,8 +1,7 @@
 # Acceptance record — SourceCourt Exact Lite 1.1.2
 
-This document states exactly what is accepted, what changed in 1.1.0 and
-1.1.2, and what
-is not claimed. It supersedes the 1.0.0 record; the 1.0.0 artifacts and their
+This document states exactly what is accepted, what changed across 1.1.0,
+1.1.1 and 1.1.2, and what is not claimed. It supersedes the 1.0.0 record; the 1.0.0 artifacts and their
 acceptance record are preserved unchanged in the maintainers' custody area.
 
 ## The exact claim

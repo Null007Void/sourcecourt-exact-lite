@@ -61,9 +61,10 @@ CERTIFIED_SDIST = {
         "size": 60847,
         "published": False,
         "reason": (
-            "The 1.0.0 source distribution embeds the original private build lane's "
-            "acceptance records verbatim and is never published. The 1.1.0 sdist is "
-            "built from this public tree and is audited by tools/build_release.py."
+            "The 1.0.0 source distribution is historical: it embeds the original private "
+            "build lane's acceptance records verbatim and is never published. The "
+            "current release sdist is built from this tree and audited by "
+            "tools/build_release.py; its hash is recorded under artifacts."
         ),
     },
 }

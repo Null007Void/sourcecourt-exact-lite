@@ -1,6 +1,6 @@
 # Known limitations
 
-Every item below is measured against the 1.1.1 code, not inferred from intent.
+Every item below is measured against the 1.1.2 code, not inferred from intent.
 The three documentation defects that existed inside the frozen 1.0.0 artifact
 (exit-code claim, "wheel carries tests" claim, `User-Agent 0.1`) were fixed in
 1.1.0 and are not listed as open issues; see

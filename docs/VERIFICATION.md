@@ -124,7 +124,7 @@ Fresh virtual environments, empty directories outside any repository.
 | `sourcecourt ask --help` | usage, answer-shape note, exit-code table, exit 0 |
 | `sourcecourt-demo` | `DEMO COMPLETE: ANSWERED end-to-end confirmed`, exit 0 |
 | metadata | version 1.1.2, no `Requires-Dist` |
-| source install (`--no-index --no-build-isolation .`) | installed, version 1.1.1, import from site-packages |
+| source install (`--no-index --no-build-isolation .`) | installed, version 1.1.2, import from site-packages |
 | live grounded answer | `ANSWERED`, `.test`, exit 0 |
 | unsupported question (live) | `UNSUPPORTED`, exit 0 |
 | typed question with no such value (live) | `UNSUPPORTED`, exit 0 |
@@ -165,9 +165,10 @@ python -W error -m unittest discover -s tests -v   # warning-strict, 99 tests
 python -m compileall -q src tests examples         # exit 0
 ```
 
-Composition: 83 tests shipped in the sdist (45 retrieval/security core, 10
-product-mode, 4 segmentation, 19 typed-value including the port-boundary matrix,
-2 link-robustness, 3 engine robustness) plus 11 release-integrity tests. No test
+Composition: 85 tests shipped in the sdist (45 retrieval/security core, 10
+product-mode, 4 segmentation, 21 typed-value covering the punctuation and sign
+matrices, 2 link-robustness, 3 engine robustness) plus 14 release-integrity
+tests, including the documented-command and shipped-artifact checks. No test
 is skipped, expected-failure, or environment-gated.
 
 ### 7.1 Mutation controls
@@ -195,5 +196,5 @@ produce more attempts than retrieved pages. The bound remains finite
 
 - No publication, push, remote, tag, release, or competition submission.
 - No GPU, ROCm, AMD inference, paid API, or external model.
-- No independent reviewer verdict for 1.1.1: this is the builder's evidence. The
+- No independent reviewer verdict for 1.1.2: this is the builder's evidence. The
   public snapshot identifies the exact commit for an independent re-review.

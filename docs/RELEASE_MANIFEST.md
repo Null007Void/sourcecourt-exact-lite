@@ -9,8 +9,8 @@ drifted.
 
 | Artifact | SHA-256 | Size |
 | --- | --- | --- |
-| `dist/sourcecourt_exact_lite-1.1.1-py3-none-any.whl` | `98984b22f2df9f94d6da7102d4fd1e8fe553725ff940ad1881464854f08dddc6` | 26,757 B |
-| `dist/sourcecourt_exact_lite-1.1.1.tar.gz` | `eb69500817e92f12d8a03df8e2588b86199613aa8a1d6c001d9068f7901dfb92` | 38,938 B |
+| `dist/sourcecourt_exact_lite-1.1.2-py3-none-any.whl` | `98984b22f2df9f94d6da7102d4fd1e8fe553725ff940ad1881464854f08dddc6` | 26,757 B |
+| `dist/sourcecourt_exact_lite-1.1.2.tar.gz` | `eb69500817e92f12d8a03df8e2588b86199613aa8a1d6c001d9068f7901dfb92` | 38,938 B |
 
 The wheel contains exactly 15 entries: the nine package modules, `METADATA`,
 `WHEEL`, `entry_points.txt`, `top_level.txt`, `licenses/LICENSE`, and `RECORD`.
@@ -74,7 +74,9 @@ regenerated.
   private-content scan, and a vacuity control for that scan).
 
 `release_manifest.json` declares these counts and the test derives them again
-from the test modules, so prose and reality cannot drift apart.
+from the test modules. Counts in prose have drifted twice during review
+(74+9 and later 83+11); both are recorded in the project ledger, which is why
+the derived value, not the sentence, is the authority.
 
 ```bash
 python -m unittest discover -s tests -v          # 99 tests
