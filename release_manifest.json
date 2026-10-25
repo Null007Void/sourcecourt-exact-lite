@@ -1,0 +1,173 @@
+{
+  "schema": "sourcecourt-exact-lite-release-manifest",
+  "schema_version": 1,
+  "name": "sourcecourt-exact-lite",
+  "version": "1.1.2",
+  "license": "MIT",
+  "python_requires": ">=3.11",
+  "package_modules": {
+    "src/sourcecourt/__init__.py": {
+      "sha256": "75d822c6c73efd4fbb86edb9f3fc9152fa674513146b75b74d7430e04218ab2e",
+      "size": 1597
+    },
+    "src/sourcecourt/cli.py": {
+      "sha256": "b96eaa8f52b0f53e01f6a745ab96ae927968b1e45681c8cbdb7477c165daa246",
+      "size": 4447
+    },
+    "src/sourcecourt/contracts.py": {
+      "sha256": "65e902eb7c4fa57f4f08186e60e304dbcaa227321b10c03db301d5b28faa37c4",
+      "size": 1405
+    },
+    "src/sourcecourt/demo.py": {
+      "sha256": "140c4f5d8eb43a4618920a52448e25bd2700449f15ce42e95ac8d8aa86043cbd",
+      "size": 3720
+    },
+    "src/sourcecourt/document.py": {
+      "sha256": "a573ac3b9da187974b36c5e1a95d0e497144444444b12193c67d34275a748fc3",
+      "size": 5683
+    },
+    "src/sourcecourt/engine.py": {
+      "sha256": "c481bcfd14909075d941c336f143e24c34a41a7acb8c7512b285e30d819778f7",
+      "size": 16425
+    },
+    "src/sourcecourt/fetch.py": {
+      "sha256": "d92f04983796f22c5dfe62d9f9fb5aa1e4b1d7bed26e8134b0fd0d70ccf6751e",
+      "size": 15973
+    },
+    "src/sourcecourt/model.py": {
+      "sha256": "4cbeb0ff03750e3e10e446669c63514cac334ad30504a41b0efb90f55cdc341d",
+      "size": 962
+    },
+    "src/sourcecourt/question.py": {
+      "sha256": "27fcc8b3f670c268c739eceb7a0063d5ea4f8112a01b32fcff96ae123724f569",
+      "size": 4389
+    }
+  },
+  "tests": {
+    "shipped_in_sdist": {
+      "tests/test_contract.py": {
+        "sha256": "7fb2aefe6f64f967398ceaa7cc3e0395d24110b1f2f02cfe99a6bc869aadecad",
+        "size": 2596
+      },
+      "tests/test_document.py": {
+        "sha256": "1254a7e5e54d35e4e723eb1e1072716168b62d51eb734201fa973628153dab22",
+        "size": 5093
+      },
+      "tests/test_engine.py": {
+        "sha256": "c63c4ed0a09b7ed6ff90e2cdc3c00c75eced34a3ed7e2f23037226fb4c10d7dd",
+        "size": 8889
+      },
+      "tests/test_fetch.py": {
+        "sha256": "1d8ba6ed093837daee3eb75e2d02845c5dd61d32b34320a0827bf813071c925d",
+        "size": 16033
+      },
+      "tests/test_integration_http.py": {
+        "sha256": "200a830c56ea824ebb25eacab973d4e1cafd1c1467d3286379b9a61418df2380",
+        "size": 2411
+      },
+      "tests/test_package.py": {
+        "sha256": "d9d892b56f80faeb248067290aa68b32c0e3264eafb40dc7f6c5914931caf38c",
+        "size": 340
+      },
+      "tests/test_product_modes.py": {
+        "sha256": "99b47dcc82f0773a3ed6bfa88b80ec6c9a91784b94ded36c187e0d9efcd159b4",
+        "size": 8843
+      },
+      "tests/test_value_answers.py": {
+        "sha256": "f7b07b392352b57ba24ed7c935f81732b2aae47b2f2b8619f0aab69247830ba7",
+        "size": 13885
+      }
+    },
+    "repository_only": {
+      "tests/test_release.py": {
+        "sha256": "51b74cf778277c773b58524b0e0616987eb81d93485aa2eea9346263b15a2027",
+        "size": 15915
+      }
+    },
+    "counts": {
+      "shipped_sdist_tests": 85,
+      "repository_total_tests": 99
+    }
+  },
+  "artifacts": {
+    "dist/sourcecourt_exact_lite-1.1.2-py3-none-any.whl": {
+      "sha256": "98984b22f2df9f94d6da7102d4fd1e8fe553725ff940ad1881464854f08dddc6",
+      "size": 26757
+    },
+    "dist/sourcecourt_exact_lite-1.1.2.tar.gz": {
+      "sha256": "eb69500817e92f12d8a03df8e2588b86199613aa8a1d6c001d9068f7901dfb92",
+      "size": 38938
+    }
+  },
+  "certified_source_distribution": {
+    "superseded": {
+      "filename": "sourcecourt_exact_lite-1.0.0.tar.gz",
+      "sha256": "38e7905af272d2b97069e9c27596651b2b5e2ad1e1156920c2a2b8322350d757",
+      "size": 60847,
+      "published": false,
+      "reason": "The 1.0.0 source distribution embeds the original private build lane's acceptance records verbatim and is never published. The 1.1.0 sdist is built from this public tree and is audited by tools/build_release.py."
+    }
+  },
+  "public_files": {
+    ".gitattributes": {
+      "sha256": "9106093b768d58d9f0b011582f7464c06115f9930cdf4fcb38fb1b174fefb467",
+      "size": 269
+    },
+    ".gitignore": {
+      "sha256": "9cf725aa7399a981b3553f93921d72b14c83144ad72cf8c7ab85eef042b1aa2a",
+      "size": 500
+    },
+    "LICENSE": {
+      "sha256": "efc1b8aaae371dc58783d1473f2ddbaf2f6b5b4a076d0599e288c325fd8067c4",
+      "size": 1072
+    },
+    "MANIFEST.in": {
+      "sha256": "997218f90a8f29a8009fa449dea37256153a06ca295b3d142d34c620a3e8a73a",
+      "size": 172
+    },
+    "README.md": {
+      "sha256": "44eceb66639bcb74f3b5ec46f0c04aafec53dda9551812c18ac480258844f4c1",
+      "size": 12229
+    },
+    "pyproject.toml": {
+      "sha256": "636a265a0673d4532bfe5d60c159375a6727e92301d6c94a170727d0f9f34721",
+      "size": 591
+    },
+    "setup.cfg": {
+      "sha256": "1c473cbaee8da5fc46e7f0158794af5cea4414c34a3cf3f180c2001f5e38bd3e",
+      "size": 38
+    },
+    "examples/answer_one.py": {
+      "sha256": "4547731f771e6462da299e78a84ece860ca2f07aff2e696cfb4e26813b5f0208",
+      "size": 1093
+    },
+    "docs/ACCEPTANCE.md": {
+      "sha256": "e88057d23ed3467fcc66d2a6b2515c8f412d826ff3657d5a078ee92a98235e73",
+      "size": 6509
+    },
+    "docs/LIMITATIONS.md": {
+      "sha256": "88c361fad5c3f06caf11da3b2ff551c0ef292056e3815bdbda0c3a90cbb3cd6a",
+      "size": 5523
+    },
+    "docs/PROVENANCE.md": {
+      "sha256": "6cba23c4931f2445f722d76af3860c01eb9af1bddca044e1478cc23ece1b097a",
+      "size": 7254
+    },
+    "docs/RELEASE_MANIFEST.md": {
+      "sha256": "a72d2e08ea27bed8abe04353c4c964c5bb9d86091b97012d898440d347536fb7",
+      "size": 4943
+    },
+    "docs/VERIFICATION.md": {
+      "sha256": "75d43e4d3980e37613363c57afabd751b0bff158c02c101246ec3d6e00aaa8f7",
+      "size": 10602
+    },
+    "tools/generate_release_manifest.py": {
+      "sha256": "75834b2435c5ab50ad6b3370558a2d199b483a4c7a1cee99d91214027b7b8c77",
+      "size": 3988
+    },
+    "tools/build_release.py": {
+      "sha256": "6f65656e86c40f3d3d6cb085f847e56e526e83da837940b9fd47a40bcfb07abb",
+      "size": 7922
+    }
+  }
+}

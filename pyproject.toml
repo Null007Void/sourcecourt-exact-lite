@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sourcecourt-exact-lite"
+version = "1.1.2"
+description = "Bounded website question answering with source-bound evidence and explicit refusal."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Null007Void Labs" }]
+keywords = ["web-retrieval", "question-answering", "evidence", "bounded"]
+dependencies = []
+
+[project.scripts]
+sourcecourt = "sourcecourt.cli:main"
+sourcecourt-demo = "sourcecourt.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

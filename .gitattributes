@@ -1,0 +1,8 @@
+# Keep every text file byte-identical across clones and platforms. The release
+# manifest pins SHA-256 values, so a checkout that rewrote line endings would
+# make a correct tree look tampered with.
+* text=auto eol=lf
+*.whl binary
+*.gz binary
+*.png binary
+*.jpg binary
